@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: "Times New Roman", serif;
+    background-color: #e9cfb4;
+}
+
+
+/* PAGE BORDER */
+.page {
+    width: 80%;
+    margin: 20px auto;
+
+    background: #e29441;
+    border: 2px solid #7c4107ce;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #e28539;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #7d450e;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/* HERO */
+.hero {
+    background: url("Download Coffee  Logo Template vector icon  for free.jpeg")
+                center/cover;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.hero-text {
+    padding: 20px 40px;
+    text-align: center;
+    color: white;
+}
+
+.hero-text h1 {
+    margin: 0;
+}
+
+.hero-text button {
+    margin-top: 10px;
+    padding: 6px 14px;
+    border: none;
+    background: #c49b63;
+    color: white;
+    cursor: pointer;
+}
+
+/* ABOUT + SPECIAL */
+.two-column {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.box {
+    
+    background: #ededed;
+    border: 1px solid #aaa;
+    padding: 15px;
+    width: 50%;
+}
+
+/* MENU */
+.menu {
+    padding: 20px;
+    border-top: 2px solid #aaa;
+    text-align: center;
+}
+
+.menu-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.menu-box {
+    background: #ededed;
+    border: 1px solid #aaa;
+    width: 30%;
+    padding: 10px;
+}
+
+.menu-box h3 {
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 5px;
+}
